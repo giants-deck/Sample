@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#formWrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ecf0f1;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#successToast{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+}
+
+#errorToast{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+}
+
+#warnToast{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    background-color: #f6b93b;
+    color: white;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 18px -10px rgba(0,0,0,0.75);
+}
+
+#close{
+    color: white;
+    outline: none;
+}
+
+#toastBody{
+    font-size: 17px;
+}
+
+#figureToast{
+    padding: 2%;
+}
